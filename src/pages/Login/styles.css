@@ -155,19 +155,7 @@
   input::placeholder {
     color: rgba(255, 255, 255, 0.283);
   }
-  input[type="submit"] {
-    border: 0;
-    border-radius: 8px;
-    padding-bottom: 0;
-    height: 60px;
-    background: #df2359;
-    color: white;
-    cursor: pointer;
-    transition: all 600ms ease-in-out;
-  }
-  input[type="submit"]:hover {
-    background: #c0392b;
-  }
+  
   span a {
     color: rgba(255, 255, 255, 0.8);
   }

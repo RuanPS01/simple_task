@@ -1,10 +1,8 @@
-import bcrypt from 'bcrypt';
+const url = 'http://localhost:8080';
+export default url;
 
-export default url = 'localhost:8080';
-
-export async function login(url, username, password) {
+export async function login(url, username) {
 	return new Promise((resolve, reject) => {
-            const hash = bcrypt.hashSync(password);
             const options = {
                 method: 'GET',
                 body: JSON.stringify( {
@@ -20,12 +18,11 @@ export async function login(url, username, password) {
 
 export async function createUser(url, username, password) {
 	return new Promise((resolve, reject) => {
-            const hash = bcrypt.hashSync(password);
             const options = {
                 method: 'GET',
                 body: JSON.stringify( {
 					"username": username,
-					"password": hash
+					"password": password
 				})  
             };
             fetch(url, options)
