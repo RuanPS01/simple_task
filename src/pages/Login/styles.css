@@ -58,6 +58,19 @@
     width: 100%;
   }
 
+  .eventMessage{
+    width: 100%;
+    border-radius: 10px;
+    background-color: #ffffff00;
+    /* color: #ffffff; */
+    text-align: center;
+    font-size: 12pt;
+    /* padding: 10px; */
+    margin-top: 10px;
+    position: absolute;
+    transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
   .card {
     border-radius: 15px;
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
@@ -118,12 +131,12 @@
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
     filter: blur(15px);
   }
-  form img {
+  .loginForm img {
     width: 120px;
     height: 120px;
     border-radius: 100%;
   }
-  form {
+  .loginForm {
     text-align: center;
     position: absolute;
     left: 50%;
@@ -159,7 +172,7 @@
   span a {
     color: rgba(255, 255, 255, 0.8);
   }
-  
+
   button {
     width: 200px;
     height: 50px;
@@ -172,8 +185,6 @@
   }
   
   button:hover {
-    width: 100%;
-    height: 50px;
     background-color: #ffffff45;
     border-radius: 10px;
     color: #ffffff;
