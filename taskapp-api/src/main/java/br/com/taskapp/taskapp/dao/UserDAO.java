@@ -51,7 +51,7 @@ public class UserDAO implements IUserDAO
     @Override
     public String update(User user) {
         jdbcTemplate.update(
-            "UPDATE emp_master "
+            "UPDATE users "
             +"SET username = ?,password = ? "
             +"WHERE id = ?",
             new Object[] {user.getUserName(),

@@ -1,0 +1,251 @@
+{
+	"info": {
+		"_postman_id": "af59704a-a685-4cf5-93cb-745c1718075b",
+		"name": "TaskappCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/user/save ruanps",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"ruanps\",\r\n    \"password\": \"0197\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/user/save",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/user/save patrick",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"patrick\",\r\n    \"password\": \"0197\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/user/save",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/task/save",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Fazer Orçamento do Projeto\",\r\n    \"duration\": \"2\",\r\n    \"local\":\"Santa Rita do Sapucaí, MG\",\r\n    \"date\": \"2021-07-13T18:25:43.511Z\",\r\n    \"guests\":\"João(joao12@email.com), Luiz(luiz54@email.com) e Caleb(caleb11@email.com)\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/task/save",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"task",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/task/update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":1,\r\n    \"name\":\"Fazer compras\",\r\n    \"duration\": \"2\",\r\n    \"local\":\"Santa Rita do Sapucaí, MG\",\r\n    \"date\": \"2021-07-13T18:25:43.511Z\",\r\n    \"guests\":\"João(joao12@email.com), Luiz(luiz54@email.com) e Caleb(caleb11@email.com)\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/task/update",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"task",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/user/update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":2,\r\n    \"username\": \"patricksouza\",\r\n    \"password\": \"01978\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/user/update",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/user/list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/user/list",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/user/get/login/ruanps",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/user/get/login/ruanps",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user",
+						"get",
+						"login",
+						"ruanps"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/user/delete/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/user/delete/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user",
+						"delete",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/task/delete/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/task/delete/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"task",
+						"delete",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/user/get/login/ruanps",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/user/get/login/ruanps",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user",
+						"get",
+						"login",
+						"ruanps"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

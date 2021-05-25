@@ -44,7 +44,7 @@ public class TaskDAO implements ITaskDAO
     @Override
     public String update(Task task) {
         jdbcTemplate.update(
-            "UPDATE emp_master "
+            "UPDATE tasks "
             +"SET name = ?,duration = ?,local = ?,date = ?,guests = ? "
             +"WHERE id = ?",
             new Object[] {task.getName(),
