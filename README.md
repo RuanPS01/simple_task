@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Taskapp
 SQL (PostgreSQL), Rest API Java and ReactJS app
 
 ## Available Scripts
