@@ -9,10 +9,10 @@ And
 ### `yarn start`
 
 ##
-Pasta de projeto da API Rest Java:
+Rest Java API project folder: :
 https://github.com/RuanPS01/taskapp/tree/main/taskapp-api
 
-Txt com o comando SQL de criação do banco no PostgreSQL:
+Txt with the SQL command to create the database in PostgreSQL: 
 https://github.com/RuanPS01/taskapp/blob/main/sql_taskapp_postgresql_db.txt
 
-Collection do Postman para testes: https://github.com/RuanPS01/taskapp/blob/main/TaskappCollection.postman_collection.json
+Postman collection for testing: https://github.com/RuanPS01/taskapp/blob/main/TaskappCollection.postman_collection.json
