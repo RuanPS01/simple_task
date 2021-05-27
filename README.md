@@ -8,7 +8,11 @@ In the project directory, you can run:
 And
 ### `yarn start`
 
+## Demonstration
+![Taskapp_simple_demo (2)](https://user-images.githubusercontent.com/30608019/119906313-5faf8b80-bf24-11eb-997b-3bdc33d5820a.gif)
+
 ##
+
 Rest Java API project folder: :
 https://github.com/RuanPS01/taskapp/tree/main/taskapp-api
 
