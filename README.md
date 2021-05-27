@@ -1,4 +1,4 @@
-# Taskapp
+# Taskapp (ReactJS aplication)
 SQL (PostgreSQL), Rest API Java and ReactJS app
 
 ## Available Scripts
@@ -9,9 +9,6 @@ And
 ### `yarn start`
 
 ##
-Repositório completo (Aplicação React):
-https://github.com/RuanPS01/taskapp.git
-
 Pasta de projeto da API Rest Java:
 https://github.com/RuanPS01/taskapp/tree/main/taskapp-api
 
