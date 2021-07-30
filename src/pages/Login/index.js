@@ -63,11 +63,11 @@ export default function Login() {
                         localStorage.setItem("password", result.password);
                         history.push('/home')
                     }else{
-                        eventMessage("Senha incorreta!");
+                        eventMessage(" Senha incorreta!");
                     }
                 }
                 
-            }).catch(err => {
+            }).catch(err => {S
                 eventMessage("Erro de conexão!")
                 createUser().then(result => {
     
